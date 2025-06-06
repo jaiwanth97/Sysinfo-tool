@@ -14,7 +14,7 @@ while true; do
     echo "     Silly tool by jaiwanth:)"
     echo "                             "
     read -p "Enter  Choice [1-5]: " choice
- 
+
 case $choice in
         1)
                 echo "CPU Usage"
