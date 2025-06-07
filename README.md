@@ -1,6 +1,6 @@
 # Sysinfo Tool
 
-Simple Bash script to display CPU, memory, disk usage, and uptime.
+Simple Bash script to display CPU, memory, disk usage, uptime, IP Address and Model name.
 
 ## Usage
 
