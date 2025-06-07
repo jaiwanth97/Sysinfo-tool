@@ -9,7 +9,8 @@ while true; do
     echo "      2.Memory               "
     echo "      3.Disk Usage           "
     echo "      4.Uptime               "
-    echo "      5.Quit                 "
+    echo "      5.IP Address           "
+    echo "      6.Quit                 "
     echo "                             "
     echo "     Silly tool by jaiwanth:)"
     echo "                             "
@@ -33,6 +34,11 @@ case $choice in
                 echo "PC is up from $(uptime -s) and up for $(uptime -p)"
                 ;;
         5)
+                echo ""
+                echo "Ip Address"
+                hostname -I
+                ;;
+        6)
                 echo "Goodbye"
                 break
                 ;;
