@@ -10,7 +10,8 @@ while true; do
     echo "      3.Disk Usage           "
     echo "      4.Uptime               "
     echo "      5.IP Address           "
-    echo "      6.Quit                 "
+    echo "      6.Model name           "
+    echo "      7.Quit                 "
     echo "                             "
     echo "     Silly tool by jaiwanth:)"
     echo "                             "
@@ -39,6 +40,12 @@ case $choice in
                 hostname -I
                 ;;
         6)
+                echo ""
+                echo ""
+                lscpu | grep "Model name"
+                echo ""
+                ;;
+        7)
                 echo "Goodbye"
                 break
                 ;;
