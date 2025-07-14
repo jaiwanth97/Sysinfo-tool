@@ -3,7 +3,7 @@
 while true; do
     echo "                             "
     echo "============================="
-    echo "=     Simple SysInfo        ="
+    echo "=        SysInfo             ="
     echo "============================="
     echo "      1.CPU Usage            "
     echo "      2.Memory               "
